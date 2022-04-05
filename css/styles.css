@@ -6,6 +6,15 @@
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
 }
+#salida{
+font-size:  60px;
+color: white;
+
+}
+.writename{
+  color:white;
+  font-size: 50px;
+}
 
 h2{
   text-align: center;

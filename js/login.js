@@ -7,11 +7,18 @@ function login(){
 
     if(user =='rivero' && pass =='123456' || user =='pia' && pass=='123456'){
 
-        alert('bienvenido a mi app web!!')
+        window.location="questions.html"
 
-    window.location="questions.html";
+        alert('bienvenido a mi app web!!');
 }
     else{
         alert("por favor ingrese nuevamente sus datos");
     }
+}
+
+function saludo(){
+
+    let name = document.getElementById("txtEntrada").value;
+    document.getElementById("salida").innerHTML = 'Hola, como estas '+ name + '?';
+
 }
