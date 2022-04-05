@@ -12,26 +12,24 @@
 
 <div class="intro">
     <h1 class="logo-header">
-        <span class="logo"> Mi</span><span class="logo">app.</span>
+        <span class="logo"> Mi</span><span class="logo">appWeb.</span>
     </h1>
 </div>
 <div class="container">
     <div class="wrapper">
       <div class="title"><span>Inicio de sesion</span></div>
-      <form action="#">
+      <form action="" name="form">
         <div class="row">
           <i class="fas fa-user"></i>
-          <input type="text" placeholder="usuario" required>
+          <input type="text" placeholder="usuario" id="usuario" >
         </div>
         <div class="row">
           <i class="fas fa-lock"></i>
-          <input type="password" placeholder="contraseña" required>
+          <input type="password" placeholder="contraseña" id="contraseña">
         </div>
-        <div class="pass"><a href="#">olvido su contraseña?</a></div>
         <div class="row button">
-          <input type="submit" value="Login">
+          <input onclick =login() type="submit" value="Ingresar">
         </div>
-        <div class="signup-link">aun no tenes cuenta? <a href="#">registrate</a></div>
       </form>
     </div>
   </div>
