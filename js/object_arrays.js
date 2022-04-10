@@ -1,6 +1,6 @@
 
 function captureData(){
-    //console.log("capturado");
+    console.log("capturado");
     function Person(usuario,contraseña){
         this.usuario=usuario;
         this.contraseña=contraseña;
