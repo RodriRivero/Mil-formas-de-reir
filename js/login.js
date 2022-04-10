@@ -14,6 +14,7 @@ function login(){
     else{
         alert("por favor ingrese nuevamente sus datos");
     }
+
 }
 
 function saludo(){
@@ -22,3 +23,4 @@ function saludo(){
     document.getElementById("salida").innerHTML = 'Hola, como estas '+ name + '?';
 
 }
+
