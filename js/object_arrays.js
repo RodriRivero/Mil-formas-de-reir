@@ -16,6 +16,7 @@ function captureData(){
 }
 let database = [];
 function add(){
+    window.location="jokes.html"
     database.push(newUsuario);
     console.log(database);
 

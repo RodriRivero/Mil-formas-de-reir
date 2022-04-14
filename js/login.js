@@ -12,15 +12,14 @@ function login(){
         alert('bienvenido a mi app web!!');
 }
     else{
-        alert("por favor ingrese nuevamente sus datos");
+        alert("usuario y contraseña incorrectas");
     }
 
 }
 
-function saludo(){
+//function saludo(){
 
-    let name = document.getElementById("txtEntrada").value;
-    document.getElementById("salida").innerHTML = 'Hola, como estas '+ name + '?';
+    //let name = document.getElementById("txtEntrada").value;
+    //document.getElementById("salida").innerHTML = 'Hola, como estas '+ name + '?';
 
-}
 

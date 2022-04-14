@@ -7,7 +7,7 @@
     font-family:'Poppins', sans-serif;
 }
 #salida{
-font-size:  60px;
+font-size:  30px;
 color: white;
 
 }
@@ -19,10 +19,12 @@ color: white;
 h2{
   text-align: center;
   font-family:'Poppins', sans-serif;
-  font-size: 50px;
-  margin-top: 50px;
+  font-size: 30px;
+  margin-top: 30px;
   color: #fff;
 }
+
+
 header{
     position: relative;
     left: 0;
@@ -191,4 +193,28 @@ header h4{
   form .signup-link a:hover{
     text-decoration: underline;
   }
-  
+
+.listado-jokes{
+    width: 100%;
+}
+.joke{
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.titulo{
+    flex:6;
+    color: white;
+}
+
+.material-icons{
+    color: white;
+}
+.play, .stop, .descargar{
+    flex: 1;
+    cursor: pointer;
+}
