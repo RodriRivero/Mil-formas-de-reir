@@ -5,7 +5,7 @@
 function saludo(){
 
     let name = document.getElementById("txtEntrada").value;
-    document.getElementById("salida").innerHTML = 'que quieres hacer '+ name + '?';
+    document.getElementById("salida").innerHTML = 'que quieres hacer el dia de hoy '+ name + '?';
 
 }
 const playCancion = document.getElementsByClassName('play')

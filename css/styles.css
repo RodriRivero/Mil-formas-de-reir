@@ -99,10 +99,11 @@ header h4{
   }
   .container{
     max-width: 440px;
-    padding: 0 20px;
+    padding: 0 20px ;
     margin: 170px auto;
   }
   .wrapper{
+    height: 350px;
     width:100%;
     background: #fff;
     border-radius: 5px;
@@ -128,6 +129,7 @@ header h4{
     position: relative;
   }
   .wrapper form .row input{
+    margin-bottom: 5px;
     height:100%;
     width:100%;
     outline: none;

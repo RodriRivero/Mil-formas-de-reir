@@ -7,12 +7,12 @@ function login(){
 
     if(user =='rivero' && pass =='123456' || user =='pia' && pass=='123456'){
 
-        window.location="questions.html"
+        window.location="jokes.html"
 
         alert('bienvenido a mi app web!!');
 }
     else{
-        alert("usuario y contraseña incorrectas");
+        alert("usuario o contraseña incorrectas, intentelo nuevamente");
     }
 
 }

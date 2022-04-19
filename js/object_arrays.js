@@ -1,4 +1,8 @@
 
+function newUser(){
+        window.location="questions.html";
+    }
+
 function captureData(){
     console.log("capturado");
     function Person(usuario,contraseña){
