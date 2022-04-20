@@ -100,8 +100,8 @@ header h4{
   .container{
     max-width: 440px;
     padding: 0 20px ;
-    margin: 170px auto;
-    height:500px;
+    margin: 170px  auto;
+    height:170px;
   }
   .wrapper{
     height: 350px;
