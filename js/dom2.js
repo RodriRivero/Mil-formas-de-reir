@@ -1,4 +1,4 @@
 
 
 const options = document.getElementById("options")
-options.innerHTML = "Reirte , reflexionar o motivarte?"
+options.innerHTML = "como te sientes el dia de hoy?"
