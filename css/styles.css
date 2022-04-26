@@ -16,7 +16,12 @@ color: white;
   font-size: 25px;
   padding-bottom: 15px;
 }
-
+h1{
+  color: white;
+  font: size 20px; ;
+  margin-top: 120px;
+  margin-left: 50px;
+}
 h2{
   text-align: center;
   font-family:'Poppins', sans-serif;
@@ -201,27 +206,3 @@ header h4{
     text-decoration: underline;
   }
 
-/*.listado-jokes{
-    width: 100%;
-}
-.joke{
-    padding: 1rem 0rem;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.titulo{
-    flex:6;
-    color: white;
-}
-
-.material-icons{
-    color: white;
-}
-.play, .stop, .descargar{
-    flex: 1;
-    cursor: pointer;
-}
