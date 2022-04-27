@@ -2,5 +2,5 @@
 
  let nameIn = document.getElementById("nameIn")
 
- document.getElementById("nameIn").innerHTML = "bienvenido!!"
+ document.getElementById("nameIn").innerHTML = "MilFormasDeReir"
  

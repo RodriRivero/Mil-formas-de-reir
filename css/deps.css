@@ -1,0 +1,96 @@
+
+
+.cont2-menu{
+    width: 400px;
+    margin: 50px auto;
+    
+    
+}
+.cont2-menu .cont-enlace .enlace{
+    height: 0;
+    overflow: hidden;
+ 
+    
+    
+}
+.cont2-menu .cont-enlace .animation{
+    height:100%;
+    display: flex;
+
+
+    
+    
+
+}
+
+.cont2-menu .cont-enlace{
+    box-shadow: white;
+    
+    
+}
+.cont2-menu .cont-enlace .opcion{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 13px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 25px ;
+    
+}
+.cont2-menu .cont-enlace .opcion .icono{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    width: 26px;
+    border-radius: 8px;
+}
+.cont2-menu .cont-enlace .enlace a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: white ;
+    border-radius: 25px ;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.cont2-menu .cont-enlace .enlace a:hover{
+    background-color:rgb(63,94,251);
+    color: white;
+}
+
+
+.container{
+
+}
+.listado-jokes{
+    width: 100%;
+}
+.joke{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.titulo{
+    flex:20;
+    color: rgb(8, 3, 3);
+}
+
+.material-icons{
+    color: rgb(22, 13, 13);
+}
+.play, .stop, .descargar{
+    flex: ;
+    cursor: pointer;
+}

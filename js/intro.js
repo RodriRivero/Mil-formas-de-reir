@@ -16,8 +16,12 @@ iconoMenu.addEventListener('click', (e) => {
 
 
 
-//function joke(){
-    //window.location = "jokes.html"}
+function joke(){
+    window.location = "jokes.html"}
+
+
+
+
 
 
 // function saludo(){
