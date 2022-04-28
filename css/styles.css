@@ -39,6 +39,10 @@ h2{
   margin-top: 10px;
   color: #fff;
 }
+h3{
+  color: rgb(223, 44, 44);
+  text-decoration: underline;
+}
 header{
     position: relative;
     left: 0;
@@ -216,10 +220,13 @@ header h4{
   text-align: center;
   padding: 30px;
   height: 40%;
-  border-radius: 15px;
+  border-radius: 19px;
   position: absolute;
   left: 39%;
   top: 21%;
   display:none;
   justify-content:space-between;
+}
+.alertblack p{
+  padding-bottom: 19px;
 }
