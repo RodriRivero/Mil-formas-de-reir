@@ -208,4 +208,18 @@ header h4{
   form .signup-link a:hover{
     text-decoration: underline;
   }
-
+.alertblack{
+  background-color: #020202;
+  width: 22%;
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  padding: 30px;
+  height: 40%;
+  border-radius: 15px;
+  position: absolute;
+  left: 39%;
+  top: 21%;
+  display:none;
+  justify-content:space-between;
+}
