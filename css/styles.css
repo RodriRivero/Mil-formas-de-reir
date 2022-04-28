@@ -230,3 +230,20 @@ header h4{
 .alertblack p{
   padding-bottom: 19px;
 }
+@media (max-width: 768px) {
+  .alertblack{
+    background-color: #020202;
+    width: 75%;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding: 30px;
+    height: 40%;
+    border-radius: 19px;
+    position: absolute;
+    left: 13%;
+    top: 21%;
+    display:none;
+    justify-content:space-between;
+  }
+}

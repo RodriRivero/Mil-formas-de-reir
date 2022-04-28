@@ -88,6 +88,14 @@ background-color:rgb(58, 74, 153);
     width: 400px;
     margin: 50px auto;
 }
+@media (max-width: 768px) {
+    .cont2-menu{
+        width: 350px;
+        margin: 50px auto;
+    }
+}
+
+
 .cont2-menu .cont-enlace .enlace{
     height: 0;
     overflow: hidden;
