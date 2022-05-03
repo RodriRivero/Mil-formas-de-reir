@@ -3,30 +3,17 @@
 .cont2-menu{
     width: 400px;
     margin: 50px auto;
-    
-    
 }
 .cont2-menu .cont-enlace .enlace{
     height: 0;
-    overflow: hidden;
- 
-    
-    
+    overflow: hidden;  
 }
 .cont2-menu .cont-enlace .animation{
     height:100%;
     display: flex;
-
-
-    
-    
-
 }
-
 .cont2-menu .cont-enlace{
-    box-shadow: white;
-    
-    
+    box-shadow: white; 
 }
 .cont2-menu .cont-enlace .opcion{
     display: flex;
@@ -38,7 +25,6 @@
     cursor: pointer;
     user-select: none;
     border-radius: 25px ;
-    
 }
 .cont2-menu .cont-enlace .opcion .icono{
     background-color: white;
@@ -67,10 +53,6 @@
     color: white;
 }
 
-
-.container{
-
-}
 .listado-jokes{
     width: 100%;
 }
@@ -80,17 +62,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 .titulo{
     flex:20;
     color: rgb(8, 3, 3);
 }
-
 .material-icons{
     color: rgb(22, 13, 13);
 }
 .play, .stop, .descargar{
-    flex: ;
+    flex: 1;
     cursor: pointer;
 }

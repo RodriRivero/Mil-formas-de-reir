@@ -5,7 +5,6 @@
 
 const playCancion = document.getElementsByClassName('play')
 const stopCancion = document.getElementsByClassName('stop')
-const volumen = document.querySelector('.volumen')
 
 
 let audio
@@ -24,8 +23,27 @@ for(elemento of stopCancion){
     })
 }
 
-volumen.addEventListener('click', function(){
-    let vol = this.value
-    audio.volume = vol
-})
+
+function abrir(){
+
+    document.getElementById('alertblack').style.display='block';
+}
+function cerrar(){
+
+    document.getElementById('alertblack').style.display='none';
+}
+
+function continuar(){
+    window.location="blackjokes.html";
+
+}
+function whitejokes(){
+    window.location="whitejokes.html";
+}
+function greenjokes(){
+    window.location="greenjokes.html";
+}
+function fisicjokes(){
+    window.location="fisicjokes.html";
+}
 

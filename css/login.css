@@ -64,30 +64,14 @@ button {
     font-size: 15px;
     padding: 0.6em 1.5em;
     margin-bottom: 25px;
-   }
-   
-   button:hover {
+}
+button:hover {
     background-position: right center;
     background-size: 200% auto;
     -webkit-animation: pulse 2s infinite;
     animation: pulse512 1.5s infinite;
-   }
-   
-   @keyframes pulse512 {
-    0% {
-     box-shadow: 0 0 0 0 #05bada66;
-    }
-   
-    70% {
-     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
-    }
-   
-    100% {
-     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
-    }
-   }
-
-   .buttoncc {
+}
+.buttoncc {
     border: none;
     color: #fff;
     background-image: linear-gradient(30deg, #1714ca, #547ded);
@@ -96,25 +80,22 @@ button {
     font-size: 15px;
     padding: 0.6em 1.5em;
     margin-bottom: 25px;
-   }
-   
-   .buttoncc:hover {
+}
+.buttoncc:hover {
     background-position: right center;
     background-size: 200% auto;
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse512 1.5s infinite;
-   }
-   
-   @keyframes pulse512 {
+    -webkit-animation: pulse 2s normal;
+    animation: pulse512 1.5s normal;
+}
+
+@keyframes pulse512 {
     0% {
-     box-shadow: 0 0 0 0 #05bada66;
+    box-shadow: 0 0 0 0 #05bada66;
     }
-   
     70% {
-     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
     }
-   
     100% {
-     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
-   }
+}

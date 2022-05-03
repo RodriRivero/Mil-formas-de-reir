@@ -1,4 +1,7 @@
 
+
+// panel de opciones lateral
+
 const iconoMenu = document.querySelector('#icono-menu')
 menu = document.querySelector('#menu');
 
@@ -19,20 +22,35 @@ iconoMenu.addEventListener('click', (e) => {
 function joke(){
     window.location = "jokes.html"}
 
+    
+// funcion para el div desplegable
+
+    const opcion = document.querySelectorAll('.opcion');
+
+    opcion.forEach( e =>{
+    
+        e.addEventListener('click', function(e){
+    
+            const padre = e.target.parentNode;
+    
+            padre.children[1].classList.toggle('animation');
+            padre.parentNode.children[1].classList.toggle('animation');
+    
+        })
+    })
+    
 
 
 
 
 
-// function saludo(){
-
-   // let name = document.getElementById("usuario").value;
-   // document.getElementById("usuario").innerHTML = 'que quieres hacer el dia de hoy '+ name + '?';}
+   //let nameuser = document.getElementById("usuario").value;
+   //document.getElementById("usuario").innerHTML = 'que quieres hacer el dia de hoy '+ nameuser + '?';
 
 
 
 //function saludo(){
 
-    //let name = document.getElementById("txtEntrada").value;
+    //let name = document.getElementById("usuario).value;
     //document.getElementById("salida").innerHTML = 'que quieres hacer el dia de hoy '+ name + '?';
 
