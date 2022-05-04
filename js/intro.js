@@ -1,5 +1,5 @@
 
-//import { saludouser } from "./index.js"; 
+
 
 
 
@@ -38,36 +38,8 @@ function joke(){
     
         })
     })
-    
 
 
-    window.onload = function saludo(){
-
-        Swal.fire({
-
-            title:' Hola!',
-            html:'<b>Como te sientes el dia de hoy?</b>',
-            input: 'select',
-            inputPlaceholder:'estado de animo',
-            inputOptions: {
-                bien:'bien',
-                masomenos:'mas o menos',
-                mal:'mal',
-                nomeimportanada:'no me importa nada',
-            },
-            icon:'',
-            confirmButtonText:'listo',
-            padding:'',
-            footer:'',
-            width:'',
-            timer:'',
-            timerProgressBar:false,
-            toast:false,
-            confirmButtonColor:'',
-            showCloseButton:false,
-
-        })
-    }
 
 
 
