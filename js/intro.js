@@ -1,4 +1,7 @@
 
+//import { saludouser } from "./index.js"; 
+
+
 
 // panel de opciones lateral
 
@@ -10,11 +13,8 @@ iconoMenu.addEventListener('click', (e) => {
     document.body.classList.toggle('opacity');
 
     const rutaActual = e.target.getAttribute('src');
-    if(rutaActual == 'img/opem-menu.png'){
-        e.target.setAttribute('src','img/open-menu2.png');
-        }else{
-            e.target.setAttribute('src','img/open-menu2.png');
-}
+    if(rutaActual == 'img/opem-menu.png'){;
+        }else{}
 });
 
 
@@ -41,16 +41,35 @@ function joke(){
     
 
 
+    window.onload = function saludo(){
+
+        Swal.fire({
+
+            title:' Hola!',
+            html:'<b>Como te sientes el dia de hoy?</b>',
+            input: 'select',
+            inputPlaceholder:'estado de animo',
+            inputOptions: {
+                bien:'bien',
+                masomenos:'mas o menos',
+                mal:'mal',
+                nomeimportanada:'no me importa nada',
+            },
+            icon:'',
+            confirmButtonText:'listo',
+            padding:'',
+            footer:'',
+            width:'',
+            timer:'',
+            timerProgressBar:false,
+            toast:false,
+            confirmButtonColor:'',
+            showCloseButton:false,
+
+        })
+    }
 
 
 
-   //let nameuser = document.getElementById("usuario").value;
-   //document.getElementById("usuario").innerHTML = 'que quieres hacer el dia de hoy '+ nameuser + '?';
 
-
-
-//function saludo(){
-
-    //let name = document.getElementById("usuario).value;
-    //document.getElementById("salida").innerHTML = 'que quieres hacer el dia de hoy '+ name + '?';
 
