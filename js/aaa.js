@@ -6,9 +6,9 @@ window.onload= function sal(){
   const inputOptions = new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        'bien': 'Bien',
-        'mas o menos': 'Mas o menos',
-        'mal': 'Mal'
+        'Perfecto que  te sientas bien,sigue asi,vas por el buen camino': 'Bien',
+        'No te preocupes ,hoy puede mejorar todo,asi que estate tranquilo': 'Mas o menos',
+        'Todos tienen un mal dia , pero todo pasa y seguro lo hara en esta ocasion tambien': 'Mal'
       })
     }, 1000)
   })
@@ -18,17 +18,18 @@ window.onload= function sal(){
     html:'<b>Como te sientes el dia de hoy?</b>',
     input: 'radio',
     inputOptions: inputOptions,
+    confirmButtonColor:'rgb(63,94,251)',
     inputValidator: (value) => {
       if (!value) {
-        return 'Tenes que escojer una opcion'
+        return 'Tienes que escoger una opcion'
       }
     }
   })
   
   if (color) {
     Swal.fire({ 
-      title:`Te sientes ${color}`,
-      html:'Hoy tienes muchas opciones para  ',
+      title:`${color}`,
+      html:'<b>Aqui tienes muchas opciones para elegir </b> ',
       confirmButtonText:'elegir',
       padding:'',
       footer:'',
@@ -36,7 +37,7 @@ window.onload= function sal(){
       timer:'',
       timerProgressBar:false,
       toast:false,
-      confirmButtonColor:'',
+      confirmButtonColor:'rgb(63,94,251)',
       showCloseButton:false, })
   }
   
