@@ -6,7 +6,7 @@ window.onload= function sal(){
   const inputOptions = new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        'Perfecto que  te sientas bien,sigue asi,vas por el buen camino': 'Bien',
+        '<span class="red" >Perfecto que  te sientas bien,sigue asi vas por el buen camino! </span>': 'Bien',
         'No te preocupes ,hoy puede mejorar todo,asi que estate tranquilo': 'Mas o menos',
         'Todos tienen un mal dia , pero todo pasa y seguro lo hara en esta ocasion tambien': 'Mal'
       })
