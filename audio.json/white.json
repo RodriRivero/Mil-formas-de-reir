@@ -1,0 +1,46 @@
+
+[
+    {
+        "id":1,
+        "playlist":"whitejokes",
+        "artista":"white1",
+        "nombre" : "",
+        "url":"./audio/1W.mp3"
+    },
+    {
+        "id":2,
+        "playlist":"whitejokes",
+        "artista":"white2",
+        "nombre" : "",
+        "url":"./audio/2W.mp3"
+    },
+    {
+        "id":3,
+        "playlist":"whitejokes",
+        "artista":"white3",
+        "nombre" : "",
+        "url":"./audio/3W.mp3"
+    },
+    {
+        "id":4,
+        "playlist":"whitejokes",
+        "artista":"white4",
+        "nombre" : "",
+        "url":"./audio/4W.mp3"
+    },
+    {
+        "id":5,
+        "playlist":"whitejokes",
+        "artista":"white5",
+        "nombre" : "",
+        "url":"./audio/5W.mp3"
+    },
+    {
+        "id":6,
+        "playlist":"whitejokes",
+        "artista":"white6",
+        "nombre" : "",
+        "url":"./audio/6W.mp3"
+    }
+
+]

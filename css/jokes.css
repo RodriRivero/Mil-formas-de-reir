@@ -7,6 +7,7 @@
 }
 .listado-jokes{
     width: 100%;
+    
 }
 .joke{
     padding: 1rem 1rem;
@@ -90,6 +91,7 @@ background-color:rgb(58, 74, 153);
 .cont2-menu .cont-enlace .enlace{
     height: 0;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 .cont2-menu .cont-enlace .animation{
     height:100%;

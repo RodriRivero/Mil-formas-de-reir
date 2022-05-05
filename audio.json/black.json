@@ -1,0 +1,82 @@
+
+
+[
+    {
+        "id":14,
+        "playlist":"blackjokes",
+        "artista":"black1",
+        "nombre" : "",
+        "url":"./audio/1B.mp3"
+    },
+        {
+        "id":15,
+        "playlist":"blackjokes",
+        "artista":"black2",
+        "nombre" : "",
+        "url":"./audio/2B.mp3"
+    },
+    {
+        "id":16,
+        "playlist":"blackjokes",
+        "artista":"black3",
+        "nombre" : "",
+        "url":"./audio/3B.mp3"
+    },
+    {
+        "id":17,
+        "playlist":"blackjokes",
+        "artista":"black4",
+        "nombre" : "",
+        "url":"./audio/4B.mp3"
+    },
+    {
+        "id":18,
+        "playlist":"blackjokes",
+        "artista":"black5",
+        "nombre" : "",
+        "url":"./audio/5B.mp3"
+    },
+    {
+        "id":19,
+        "playlist":"blackjokes",
+        "artista":"black6",
+        "nombre" : "",
+        "url":"./audio/6B.mp3"
+    },
+    {
+        "id":20,
+        "playlist":"blackjokes",
+        "artista":"black7",
+        "nombre" : "",
+        "url":"./audio/7B.mp3"
+    },
+    {
+        "id":21,
+        "playlist":"blackjokes",
+        "artista":"black8",
+        "nombre" : "",
+        "url":"./audio/8B.mp3"
+    },
+    {
+        "id":22,
+        "playlist":"blackjokes",
+        "artista":"black9",
+        "nombre" : "",
+        "url":"./audio/9B.mp3"
+    },
+    {
+        "id":23,
+        "playlist":"blackjokes",
+        "artista":"black10",
+        "nombre" : "",
+        "url":"./audio/10B.mp3"
+    },
+    {
+        "id":24,
+        "playlist":"blackjokes",
+        "artista":"black11",
+        "nombre" : "",
+        "url":"./audio/11B.mp3"
+    }
+
+]

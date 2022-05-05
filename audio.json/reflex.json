@@ -1,0 +1,39 @@
+[
+    {
+        "id":32,
+        "playlist":"reflexionar",
+        "artista":"reflex1",
+        "nombre" : "",
+        "url":"./audio/1R.mp3"
+    },
+    {
+        "id":33,
+        "playlist":"reflexionar",
+        "artista":"reflex2",
+        "nombre" : "",
+        "url":"./audio/2R.mp3"
+    },
+    {
+        "id":34,
+        "playlist":"reflexionar",
+        "artista":"reflex3",
+        "nombre" : "",
+        "url":"./audio/3R.mp3"
+    },
+    {
+        "id":35,
+        "playlist":"reflexionar",
+        "artista":"reflex4",
+        "nombre" : "",
+        "url":"./audio/4R.mp3"
+    },
+    {
+        "id":36,
+        "playlist":"reflexionar",
+        "artista":"reflex5",
+        "nombre" : "",
+        "url":"./audio/5R.mp3"
+    }
+
+
+]

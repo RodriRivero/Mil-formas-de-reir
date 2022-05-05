@@ -19,9 +19,6 @@ iconoMenu.addEventListener('click', (e) => {
 
 
 
-function joke(){
-    window.location = "jokes.html"}
-
     
 // funcion para el div desplegable
 

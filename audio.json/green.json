@@ -1,0 +1,54 @@
+
+
+[
+    {
+        "id":7,
+        "playlist":"greenjokes",
+        "artista":"green1",
+        "nombre" : "",
+        "url":"./audio/1G.mp3"
+    },
+    {
+        "id":8,
+        "playlist":"greenjokes",
+        "artista":"green2",
+        "nombre" : "",
+        "url":"./audio/2G.mp3"
+    },
+    {
+        "id":9,
+        "playlist":"greenjokes",
+        "artista":"green3",
+        "nombre" : "",
+        "url":"./audio/3G.mp3"
+    },
+    {
+        "id":10,
+        "playlist":"greenjokes",
+        "artista":"green4",
+        "nombre" : "",
+        "url":"./audio/4G.mp3"
+    },
+    {
+        "id":11,
+        "playlist":"greenjokes",
+        "artista":"green5",
+        "nombre" : "",
+        "url":"./audio/5G.mp3"
+    },
+    {
+        "id":12,
+        "playlist":"greenjokes",
+        "artista":"green6",
+        "nombre" : "",
+        "url":"./audio/6G.mp3"
+    },
+    {
+        "id":13,
+        "playlist":"greenjokes",
+        "artista":"green7",
+        "nombre" : "",
+        "url":"./audio/7G.mp3"
+    }
+
+]
