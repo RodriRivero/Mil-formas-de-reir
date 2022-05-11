@@ -99,7 +99,6 @@ background-color:rgb(58, 74, 153);
 }
 
 .cont2-menu .cont-enlace{
-    box-shadow: white;
 }
 .cont2-menu .cont-enlace .opcion{
     display: flex;
@@ -135,6 +134,5 @@ background-color:rgb(58, 74, 153);
     color: white;
 }
 .version{
-
     font-size: 12px;
 }

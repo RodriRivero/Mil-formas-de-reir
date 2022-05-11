@@ -2,7 +2,7 @@
 window.onload= function sal(){
 (async () => {
 
-  /* inputOptions can be an object or Promise */
+
   const inputOptions = new Promise((resolve) => {
     setTimeout(() => {
       resolve({

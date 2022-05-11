@@ -1,8 +1,7 @@
 
 
 
- let nameIn = document.getElementById("nameIn")
+    let nameIn = document.getElementById("nameIn")
 
- document.getElementById("nameIn").innerHTML = " Bienvenido a      MilFormasDeReir!!"
-
+    nameIn.innerHTML = " Bienvenido a MilFormasDeReir!!"
 

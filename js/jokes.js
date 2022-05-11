@@ -12,7 +12,7 @@ let audio
 for(elemento of playCancion){
     elemento.addEventListener('click', function(){
         let cancion = this.getAttribute('id')
-        audio = new Audio(`./audio/${cancion}.mp3`)
+        audio = new Audio (`./audio/${cancion}.mp3`)
         audio.play()
     })
 }
