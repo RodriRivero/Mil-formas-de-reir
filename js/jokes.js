@@ -54,5 +54,9 @@ function moti(){
     window.location="moti.html";
 
 }
+function category(){
+    window.location="category.html";
+
+}
 
 
