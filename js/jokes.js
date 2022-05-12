@@ -38,4 +38,21 @@ function continuar(){
 
 }
 
+function whitejokes(){
+    window.location="whitejokes.html";
+
+}
+function greenjokes(){
+    window.location="greenjokes.html";
+
+}
+function reflexi(){
+    window.location="reflexi.html";
+
+}
+function moti(){
+    window.location="moti.html";
+
+}
+
 
