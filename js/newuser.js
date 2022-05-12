@@ -38,7 +38,7 @@ function captureData(){
 }
     else{
         
-        window.location="category.html" 
+        window.location="intro.html" 
         
     }
 

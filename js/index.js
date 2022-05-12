@@ -44,7 +44,7 @@ function login(){
     if(user =='rivero' && pass =='123456' || user =='pia' && pass=='123456'|| user=='arturo' && pass=='123456' ){
 
         
-        window.location="category.html";
+        window.location="intro.html";
 }
     else{
         //alert("usuario o contraseña incorrectas, intentelo nuevamente");
