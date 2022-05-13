@@ -7,7 +7,6 @@
 }
 .listado-jokes{
     width: 100%;
-    
 }
 .joke{
     padding: 1rem 1rem;
@@ -17,17 +16,16 @@
     justify-content: space-between;
     align-items: center;
 }
-.titulo{
-    flex:8;
-    color: rgb(46, 31, 31);
-}
 
 .material-icons{
-    color: rgb(14, 13, 13);
+    color: rgb(81, 145, 219);
 }
 .play, .stop, .descargar{
-    flex: 1;
     cursor: pointer;
+
+}
+.material-icons:hover{
+    color: rgb(247, 248, 248);
 }
 
 .icono-menu{
@@ -91,14 +89,12 @@ background-color:rgb(58, 74, 153);
 .cont2-menu .cont-enlace .enlace{
     height: 0;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 .cont2-menu .cont-enlace .animation{
     height:100%;
+    
 
-}
-
-.cont2-menu .cont-enlace{
 }
 .cont2-menu .cont-enlace .opcion{
     display: flex;
@@ -112,26 +108,24 @@ background-color:rgb(58, 74, 153);
     border-radius: 25px ;
 }
 .cont2-menu .cont-enlace .opcion .icono{
-    background-color: white;
-    color: black;
-    font-weight: bold;
+    background-color: rgb(255, 255, 255);
     font-size: 22px;
     text-align: center;
-    width: 26px;
-    border-radius: 8px;
+    width: 36px;
+    border-radius: 15px;
 }
 .cont2-menu .cont-enlace .enlace a {
-    display: block;
-    padding: 10px 15px;
+    display: flex;
+    justify-content:space-around;
+    padding: 5px 5px;
     text-decoration: none;
     font-size: 20px;
-    color: black;
     background-color: white ;
-    border-radius: 25px ;
+    border-radius: 15px ;
+    height: 60px;
 }
 .cont2-menu .cont-enlace .enlace a:hover{
     background-color:rgb(63,94,251);
-    color: white;
 }
 .version{
     font-size: 12px;

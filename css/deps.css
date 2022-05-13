@@ -12,8 +12,6 @@
     height:100%;
     display: flex;
 }
-.cont2-menu .cont-enlace{
-}
 .cont2-menu .cont-enlace .opcion{
     display: flex;
     justify-content: space-between;
@@ -50,26 +48,4 @@
 .cont2-menu .cont-enlace .enlace a:hover{
     background-color:rgb(63,94,251);
     color: white;
-}
-
-.listado-jokes{
-    width: 100%;
-}
-.joke{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.titulo{
-    flex:20;
-    color: rgb(8, 3, 3);
-}
-.material-icons{
-    color: rgb(22, 13, 13);
-}
-.play, .stop, .descargar{
-    flex: 1;
-    cursor: pointer;
 }
