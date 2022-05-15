@@ -280,8 +280,8 @@ header h4{
     color: white;
     font-size: 18px;
     text-align: center;
-    padding: 27px;
-    height: 50%;
+    padding: 45px;
+    height: 40%;
     border-radius: 19px;
     position: absolute;
     left: 13%;
@@ -290,3 +290,4 @@ header h4{
     justify-content:space-between;
   }
 }
+
