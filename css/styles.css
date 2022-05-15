@@ -278,14 +278,14 @@ header h4{
     background-color: #020202;
     width:75%;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    padding: 45px;
-    height: 40%;
+    padding:28px;
+    height: 50%;
     border-radius: 19px;
     position: absolute;
     left: 13%;
-    top: 21%;
+    top: 35%;
     display:none;
     justify-content:space-between;
   }
