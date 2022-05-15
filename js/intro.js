@@ -1,49 +1,10 @@
 
-
-
-
-
-// panel de opciones lateral
-
-const iconoMenu = document.querySelector('#icono-menu')
-menu = document.querySelector('#menu');
-
-iconoMenu.addEventListener('click', (e) => {
-    menu.classList.toggle('active');
-    document.body.classList.toggle('opacity');
-
-    const rutaActual = e.target.getAttribute('src');
-    if(rutaActual == 'img/opem-menu2.png'){;
-        }else{}
-});
-
-
-
     
-// funcion para el div desplegable
+    let ircate = document.getElementById("gocat")
 
-    const opcion = document.querySelectorAll('.opcion');
-
-    opcion.forEach( e =>{
-    
-        e.addEventListener('click', function(e){
-    
-            const padre = e.target.parentNode;
-    
-            padre.children[1].classList.toggle('animation');
-            padre.parentNode.children[1].classList.toggle('animation');
-    
-        })
-    })
-
-
-    let ircat = document.getElementById("gocat")
-
-    ircat.addEventListener("click",category)
-function category(){
+    ircate.addEventListener("click",category)
+    function category(){
     window.location="category.html";
-}
-
-
+    }
 
 
