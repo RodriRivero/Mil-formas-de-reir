@@ -37,7 +37,12 @@ iconoMenu.addEventListener('click', (e) => {
     })
 
 
+    let ircat = document.getElementById("gocat")
 
+    ircat.addEventListener("click",category)
+function category(){
+    window.location="category.html";
+}
 
 
 

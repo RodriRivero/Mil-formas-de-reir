@@ -1,23 +1,26 @@
 
-function newUser(){
-        window.location="newuser.html";
-    }
+
+
+
+    let capda = document.getElementById("captured")
+        capda.addEventListener("click",captureData)
+
 
 function captureData(){
     console.log("se guardo");
-    function Person(usuario,contraseña){
+    function Person(usuario,contraseña,palabraClave){
         this.usuario=usuario;
         this.contraseña=contraseña;
-        this.email=email;
+        this.palabraClave=palabraClave;
     }
-    let usuarioCapture = document.getElementById("usuario").value;
-    console.log(usuarioCapture);
-    let contraseñaCapture = document.getElementById("contraseña").value;
-    console.log(contraseñaCapture);
-    let emailCapture = document.getElementById("email").value;
-    console.log(emailCapture);
-    
-    if(usuarioCapture ==='' || contraseñaCapture ===''|| emailCapture ===''){
+    let usuarioCapture = document.getElementById('usuario').value;
+
+    let contraseñaCapture = document.getElementById('contraseña').value;
+
+    let palabraClaveCapture = document.getElementById('palabraClave').value;
+
+    if(usuarioCapture ==='' || contraseñaCapture ===''|| palabraClaveCapture ===''){
+
         Swal.fire({
             html:'<b>Complete todos los campos!</b>',
             icon:'error',
@@ -32,20 +35,13 @@ function captureData(){
 
         })
 }
-    else{
-        
+    else{   
         window.location="intro.html" 
-        
     }
 
-    newUsuario = new Person (usuarioCapture,contraseñaCapture,emailCapture);
+    newUsuario = new Person (usuarioCapture,contraseñaCapture,palabraClaveCapture);
+    localStorage.setItem('nuevo usuario',JSON.stringify(newUsuario));
     console.log(newUsuario);
-    add();
-}
-let database = [];
-function add(){
-    database.push(newUsuario);
-    console.log(database);
-    
+
 }
 

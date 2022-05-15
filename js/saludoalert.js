@@ -2,11 +2,10 @@
 window.onload= function sal(){
 (async () => {
 
-
   const inputOptions = new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        '<span class="animo" >" Aquel que tiene un porqué para vivir se puede enfrentar a todos los «cómos»."<br>(Friedrich Nietzsche)</span>': '<span class="emo" > &#128512<span/>',
+        '<span class="animo" >" Aquel que tiene un «porqué» para vivir se puede enfrentar a todos los «cómos»."<br>(Friedrich Nietzsche)</span>': '<span class="emo" > &#128512<span/>',
         '<span class="animo" >" Los hombres olvidan siempre que la felicidad humana es una disposición de la mente y no una condición de las circunstancias."<br>(Locke)</span>': '<span class="emo" >&#128528;<span/>',
         '<span class="animo" > " Puede que no podamos controlar lo que nos pasa, pero podemos controlar lo que ocurre en nuestro interior." <br>(Benjamin Franklin)</span>': '<span class="emo" >  &#128557</span>'
       })

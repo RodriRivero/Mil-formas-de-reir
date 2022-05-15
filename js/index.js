@@ -36,6 +36,10 @@ window.addEventListener('DOMContentLoaded',()=>{
 })
 
 
+
+
+let logi = document.getElementById("nameuser")
+    logi.addEventListener("click",login)
 function login(){
 
     let user =document.getElementById('usuario').value;
@@ -59,8 +63,14 @@ function login(){
             toast:true,
             confirmButtonColor:'black',
             showCloseButton:true,
-            closeButtonAriaLabel:'cerrar alerta',
+            closeButtonAriaLabel:'cerrar alerta'
         })
     }
 }
 
+let nuser = document.getElementById("newUser")
+    nuser.addEventListener("click",newUser)
+function newUser(){
+    
+        window.location="newuser.html";
+    }
