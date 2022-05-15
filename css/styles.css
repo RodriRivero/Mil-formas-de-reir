@@ -68,6 +68,7 @@ h2{
 h3{
   color: rgb(223, 44, 44);
   text-decoration: underline;
+  margin-top: 16px;
 }
 header{
     position: relative;
@@ -278,11 +279,11 @@ header h4{
     background-color: #020202;
     width:75%;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
-    padding:28px;
-    height: 50%;
-    border-radius: 19px;
+    padding:24px;
+    height: 40%;
+    border-radius: 10px;
     position: absolute;
     left: 13%;
     top: 35%;
