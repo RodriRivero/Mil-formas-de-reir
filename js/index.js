@@ -50,21 +50,16 @@ function login(){
         //alert("usuario o contraseña incorrectas, intentelo nuevamente");
 
         Swal.fire({
-
-            title:'',
             html:'<b>Usuario o Contraseña incorrectas, intentelo nuevamente</b>',
             icon:'error',
             confirmButtonText:'intentar nuevamente',
             padding:'1rem',
-            footer:'',
-            width:'',
             timer:'9000',
             timerProgressBar:true,
             toast:true,
             confirmButtonColor:'black',
             showCloseButton:true,
             closeButtonAriaLabel:'cerrar alerta',
-
         })
     }
 }

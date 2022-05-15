@@ -19,14 +19,10 @@ function captureData(){
     
     if(usuarioCapture ==='' || contraseñaCapture ===''|| emailCapture ===''){
         Swal.fire({
-
-            title:'',
             html:'<b>Complete todos los campos!</b>',
             icon:'error',
             confirmButtonText:'Entendido',
             padding:'3rem',
-            footer:'',
-            width:'',
             timer:'9000',
             timerProgressBar:true,
             toast:true,
