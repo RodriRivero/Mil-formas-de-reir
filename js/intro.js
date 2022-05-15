@@ -13,7 +13,7 @@ iconoMenu.addEventListener('click', (e) => {
     document.body.classList.toggle('opacity');
 
     const rutaActual = e.target.getAttribute('src');
-    if(rutaActual == 'img/opem-menu.png'){;
+    if(rutaActual == 'img/opem-menu2.png'){;
         }else{}
 });
 

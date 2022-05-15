@@ -6,7 +6,6 @@
 const playCancion = document.getElementsByClassName('play')
 const stopCancion = document.getElementsByClassName('stop')
 
-
 let audio
 
 for(elemento of playCancion){
