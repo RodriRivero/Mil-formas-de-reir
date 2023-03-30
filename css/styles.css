@@ -95,6 +95,7 @@ header h4{
 p {
     color: white;
      text-align: center;
+     padding:30px ;
 }
 .logo-header{
     position: absolute;
