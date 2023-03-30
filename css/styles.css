@@ -92,7 +92,9 @@ header h4{
     background-color: black;
     transition: 1s;
 }
-
+p {
+    color: white;
+}
 .logo-header{
     position: absolute;
     top: 40%;
